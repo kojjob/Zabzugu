@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  namespace :admin do
+    get "vendors/index"
+    get "vendors/show"
+    get "vendors/approve"
+    get "vendors/reject"
+    get "vendors/suspend"
+    get "vendors/update"
+  end
   resources :shipping_methods
   resources :addresses
   resources :payments
