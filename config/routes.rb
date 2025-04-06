@@ -1,4 +1,13 @@
 Rails.application.routes.draw do
+  resources :shipping_methods
+  resources :addresses
+  resources :payments
+  resources :order_items
+  resources :orders
+  resources :variants
+  resources :products
+  resources :categories
+  resources :vendors
   devise_for :users
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
