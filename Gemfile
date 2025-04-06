@@ -40,7 +40,7 @@ gem "kamal", require: false
 gem "thruster", require: false
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
-# gem "image_processing", "~> 1.2"
+gem "image_processing", "~> 1.2"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -63,3 +63,10 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "devise", "4.8.1" 
+gem  "pundit"
+gem "pagy", "~> 6.0"
+gem "aws-sdk-s3", "~> 1.11", ">= 1.11.1"
+gem "google-cloud-storage", "~> 1.26"
+# gem "mini_magick", "~> 4.10" # Required for aws-sdk-s3, google-cloud-storage
