@@ -64,9 +64,8 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "devise", "4.8.1" 
-gem  "pundit"
-gem "pagy", "~> 6.0"
-gem "aws-sdk-s3", "~> 1.11", ">= 1.11.1"
-gem "google-cloud-storage", "~> 1.26"
-# gem "mini_magick", "~> 4.10" # Required for aws-sdk-s3, google-cloud-storage
+gem "devise"
+gem "pundit"
+gem "pagy"
+gem "aws-sdk-s3"
+gem "google-cloud-storage"
